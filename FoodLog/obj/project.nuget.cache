@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZqzqKbJK1hlfqzGGU5f3gKp5aQsda8W+21v1olCx2gyTpO/FHzmtMcR/UFO7oJqCaQiJsADmqG56n/5c5Der2Q==",
+  "dgSpecHash": "UTgRXKkv6r3RbBVC4vbJzatADR+onLL6SHUKH0Wab/Lt/+YbvchyUu4Zjflf1LO1yYeBatdH7ThfN3paSKFbHw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gergő\\source\\repos\\FoodLog\\FoodLog\\FoodLog.csproj",
+  "projectFilePath": "C:\\Users\\Gergő\\Documents\\GitHub\\FoodLog\\FoodLog\\FoodLog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gergő\\.nuget\\packages\\bcrypt\\1.0.0\\bcrypt.1.0.0.nupkg.sha512",
     "C:\\Users\\Gergő\\.nuget\\packages\\bcrypt.net\\0.1.0\\bcrypt.net.0.1.0.nupkg.sha512",
