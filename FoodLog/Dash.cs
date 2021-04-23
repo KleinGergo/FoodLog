@@ -127,15 +127,25 @@ namespace FoodLog
         }
         private void delete_Click(object sender, System.EventArgs e)
         {
-            Application.VisualStyleState = VisualStyleState.ClientAndNonClientAreasEnabled;
-            int ID = Convert.ToInt32(all.SelectedCells[0].Value);
-            LogBase userData = new LogBase();
-            userData.OpenConnection();
-            string query = "DELETE FROM DATAS WHERE ROWID='" + ID + "'";
-            SQLiteCommand delete = new SQLiteCommand(query, userData.myConnection);
-            delete.ExecuteNonQuery();
-            userData.CloseConnection();
+            
             Table();
+            Application.VisualStyleState = VisualStyleState.ClientAndNonClientAreasEnabled;
+            if (all.SelectedRows.Count < 1)
+                MessageBox.Show("Nem választott ki értéket!");
+            else
+            {
+                Application.VisualStyleState = VisualStyleState.ClientAndNonClientAreasEnabled;
+                int ID = Convert.ToInt32(all.SelectedCells[0].Value);
+                LogBase userData = new LogBase();
+                userData.OpenConnection();
+                string query = "DELETE FROM DATAS WHERE ROWID='" + ID + "'";
+                SQLiteCommand delete = new SQLiteCommand(query, userData.myConnection);
+                delete.ExecuteNonQuery();
+                userData.CloseConnection();
+
+            }
+           
+           
         }
         private void calendar_ValueChanged(object sender, System.EventArgs e)
         {
