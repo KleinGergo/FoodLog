@@ -142,7 +142,7 @@ namespace FoodLog
                 SQLiteCommand delete = new SQLiteCommand(query, userData.myConnection);
                 delete.ExecuteNonQuery();
                 userData.CloseConnection();
-
+                Table();
             }
            
            
