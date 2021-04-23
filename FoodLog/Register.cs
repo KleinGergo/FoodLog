@@ -54,7 +54,7 @@ namespace FoodLog
             if (String.IsNullOrEmpty(userName.Text) || String.IsNullOrEmpty(pw.Text) || (Male.Checked == false && Female.Checked == false) ||
                 String.IsNullOrEmpty(Weight.Text) || String.IsNullOrEmpty(Height.Text) || String.IsNullOrEmpty(Age.Text) || (Stay.Checked == false && Reduce.Checked == false && Grow.Checked == false))
             {
-                MessageBox.Show("Hiányosan töltötte ki az adatokat!", "Hiányos adat!");
+                MessageBox.Show("Hiányosan töltötte ki az adatokat", "Hiányos adat!");
 
             }
           
