@@ -1251,11 +1251,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gergő\\source\\repos\\FoodLog\\FoodLog\\FoodLog.csproj",
+      "projectUniqueName": "C:\\Users\\Gergő\\Documents\\GitHub\\FoodLog\\FoodLog\\FoodLog.csproj",
       "projectName": "FoodLog",
-      "projectPath": "C:\\Users\\Gergő\\source\\repos\\FoodLog\\FoodLog\\FoodLog.csproj",
+      "projectPath": "C:\\Users\\Gergő\\Documents\\GitHub\\FoodLog\\FoodLog\\FoodLog.csproj",
       "packagesPath": "C:\\Users\\Gergő\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gergő\\source\\repos\\FoodLog\\FoodLog\\obj\\",
+      "outputPath": "C:\\Users\\Gergő\\Documents\\GitHub\\FoodLog\\FoodLog\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
